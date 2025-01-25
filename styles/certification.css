@@ -1,0 +1,94 @@
+/* General Styling for Certifications Section */
+.certifications {
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.certifications .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.certifications .section-title h2 {
+  font-size: 36px;
+  color: #007bff;
+}
+
+.certifications .section-title p {
+  font-size: 16px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Styling for Certification Items */
+.certifications .certification-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.certifications .certification-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+  transition: box-shadow 0.3s ease;
+}
+
+.certifications .certification-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.certifications .certification-item h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.certifications .certification-item h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.certifications .certification-item p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.certifications .certification-item strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.certifications .certification-item a {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.certifications .certification-item a:hover {
+  color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .certifications .certification-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certifications .certification-item {
+    width: 90%;
+  }
+}
